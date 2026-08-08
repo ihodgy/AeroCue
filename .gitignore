@@ -1,0 +1,14 @@
+# Swift Package Manager build output
+.build/
+.swiftpm/
+Package.resolved
+
+# Assembled app bundle (produced by Scripts/build_app.sh)
+build/
+
+# Intermediate iconset (regenerate with Scripts/generate_icon.swift);
+# the compiled AppIcon.icns is committed since build_app.sh needs it.
+Resources/AppIcon.iconset/
+
+# macOS
+.DS_Store
